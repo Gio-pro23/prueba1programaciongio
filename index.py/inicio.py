@@ -17,6 +17,8 @@ else:
     suma=0 ##tiene q ser 0 asi va sumando cada nota segun yo pq siempre haciamos eso
     for i in notas:
         suma=suma /len(notas) ##la suma de cada una se divide por la cant de notas pq bueno el len ess lo q muestra lo q hay en la lista jsja
-        
+
     print("el promedio es:",suma)
+
+    print("probando git hub, ndqv con la prueba")
 
