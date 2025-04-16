@@ -3,7 +3,7 @@
 notas=[]
 
 nota=input("ingresar notas de matematica (escribir listo en el caso que quieras terminar):")
-while nota != "listo":
+while nota != "listo": ##osea mientras q nota ! lsito (osea q no sea igual a listo pq el ! es eso)
     nota = float(nota)   ##float para q sea decimal jjs
     if notas >=0 and <=10:
         notas.append(nota)
