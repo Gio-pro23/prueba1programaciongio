@@ -37,15 +37,16 @@ while nota != "listo":
 
 def calcular_promedio(lista,nombre):
    if len(lista) > 0: ##si tpodads las notas son mayores q 10 y menores que 0 
-    suma=0 ##tiene q ser 0 asi va sumando cada nota segun yo pq siempre haciamos eso
-    for i in lista:
+      suma=0 ##tiene q ser 0 asi va sumando cada nota segun yo pq siempre haciamos eso
+      for i in lista:
         suma = suma + i
-        promedio = suma / len(lista) ##la suma de cada una se divide por la cant de notas pq bueno el len ess lo q muestra lo q hay en la lista jsja   
-        print(f"promedio de {nombre}:{promedio}")
 
-        if promedio > 7:
+      promedio = suma / len(lista) ##la suma de cada una se divide por la cant de notas pq bueno el len ess lo q muestra lo q hay en la lista jsja   
+      print(f"promedio de {nombre}:{promedio}")
+
+      if promedio > 7:
            print("aprobado :)")
-        else:
+      else:
            print("desaprobado ;()")
    else:
         print("no hay notas")
